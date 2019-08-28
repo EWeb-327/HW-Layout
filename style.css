@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+body {
+    background-color: #333;
+}
+
+header, footer, #nav, section, aside {
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: lightgrey;
+    color: darkslategray;
+}
+
+section {
+    float: left;
+    width: 57%;
+    height: 300px;
+}
+
+#article {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: lightgrey;
+    background-color: #333;
+}
+
+#headers, p {
+    padding: 20px;
+    margin-top: 10px;
+    color: #333;
+    background-color: lightgrey;
+}
+
+aside {
+   float: right; 
+   width: 41%;
+   height: 300px;
+}
